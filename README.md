@@ -3,7 +3,7 @@ Padé and Openfire package in Docker mode - All questions &amp; contribs for Pad
 
 You also need a mysql Docker instance installed and correctly configuered
 
-### These scripts create a docker image with Openfire + Plugins for Padé and Jitsi videobridge
+##### These scripts create a docker image with Openfire + Plugins for Padé and Jitsi videobridge
 
 
 ## Building docker image 
