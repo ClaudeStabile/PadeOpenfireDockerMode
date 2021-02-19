@@ -10,8 +10,8 @@ You also need a mysql Docker instance installed and correctly configuered
 Please use this as example to build a docker image with command
 
 For example :
-https://github.com/ClaudeStabile/PadeOpenfireDockerMode    ==> to retrieve files
-docker build -t ofdocker:version1 .
+git clone https://github.com/ClaudeStabile/PadeOpenfireDockerMode    ==> to retrieve files
+docker build -t ofdocker:version1 .  ==> To build your docker image
 This should create a new docker image named ofdocker:version1
 
 Once you have your docker image, you can start your docker wirh a docker run command, then install Openfire
