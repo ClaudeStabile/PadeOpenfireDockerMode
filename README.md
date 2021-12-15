@@ -21,7 +21,7 @@ Pls note that this code is provided as a sample. Review all files to match your 
 
 ### Port mapping & run command :
 
-Exeample of command to start an Openfire Docker
+Example of command to start an Openfire Docker
 
 docker run -e TZ=" Europe/Zurich" -v /data/ATTACHEMENTS/MYHOST:/attachements/MYHOST --name myhost -h myhost.free-solutions.org  -p X.X.X.X:7090:9090 -p X.X.X.X:7091:9091 -p X.X.X.X:6777:7777 -p X.X.X.X:7443:7443 -p X.X.X.X:5228:5222 -p X.X.X.X:5369:5269 -p X.X.X.X:5370:5270 -p X.X.X.X:10005:10005/udp  -p X.X.X.X:10015:10015/udp -d ofdocker:version1
 
