@@ -11,6 +11,7 @@ Please use this as example to build a docker image with command
 
 For example :
 git clone https://github.com/ClaudeStabile/PadeOpenfireDockerMode    ==> to retrieve files
+
 docker build -t ofdocker:version1 .  ==> To build your docker image
 This should create a new docker image named ofdocker:version1
 
