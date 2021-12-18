@@ -6,9 +6,9 @@ set -e
 
 #installing openfire
 
-wget -O openfire_4.6.5_all.deb https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_4.6.5_all.deb 
-dpkg -i openfire_4.6.5_all.deb 
-rm openfire_4.6.5_all.deb 
+wget -O openfire_4.6.6_all.deb https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_4.6.6_all.deb 
+dpkg -i openfire_4.6.6_all.deb 
+rm openfire_4.6.6_all.deb 
 
 
 #installing Openfire plugins 
