@@ -29,9 +29,10 @@ docker run -e TZ=" Europe/Zurich" -v /data/ATTACHEMENTS/MYHOST:/attachements/MYH
 
 Corrected with this docker version as it uses openfire 4.7.1 version with all log4j patches
 
+### Howto run the container 
 
 For example : 
-docker run -e LOG4J_FORMAT_MSG_NO_LOOKUPS="true" -e TZ=" Europe/Zurich" -v /data/ATTACHEMENTS/MYHOST:/attachements/MYHOST --name myhost -h myhost.free-solutions.org  -p X.X.X.X:7090:9090 -p X.X.X.X:7091:9091 -p X.X.X.X:6777:7777 -p X.X.X.X:7443:7443 -p X.X.X.X:5228:5222 -p X.X.X.X:5369:5269 -p X.X.X.X:5370:5270 -p X.X.X.X:10005:10005/udp  -p X.X.X.X:10015:10015/udp -d ofdocker:version1
+docker run -e TZ=" Europe/Zurich" -v /data/ATTACHEMENTS/MYHOST:/attachements/MYHOST --name myhost -h myhost.free-solutions.org  -p X.X.X.X:7090:9090 -p X.X.X.X:7091:9091 -p X.X.X.X:6777:7777 -p X.X.X.X:7443:7443 -p X.X.X.X:5228:5222 -p X.X.X.X:5369:5269 -p X.X.X.X:5370:5270 -p X.X.X.X:10005:10005/udp  -p X.X.X.X:10015:10015/udp -d ofdocker:version1
 
 #### Next steps : 
 
