@@ -27,7 +27,7 @@ docker run -e TZ=" Europe/Zurich" -v /data/ATTACHEMENTS/MYHOST:/attachements/MYH
 
 ### Log4j vulnerability CVE-2021-44228 ###
 
-Corrected with this docker version as it uses openfire 4.7.1 version with all log4j patches
+Corrected with this docker version as it uses openfire 4.7.3 version with all log4j patches
 
 ### Howto run the container 
 
