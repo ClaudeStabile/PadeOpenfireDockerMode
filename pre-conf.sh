@@ -30,13 +30,13 @@ cd /usr/share/openfire/plugins/
 wget -O bookmarks.jar https://www.igniterealtime.org/projects/openfire/plugins/1.1.0/bookmarks.jar 
 wget -O fastpath.jar https://www.igniterealtime.org/projects/openfire/plugins/4.4.5/fastpath.jar 
 wget -O httpfileupload.jar https://www.igniterealtime.org/projects/openfire/plugins/1.1.4/httpfileupload.jar 
-wget -O monitoring.jar https://www.igniterealtime.org/projects/openfire/plugins/2.3.0/monitoring.jar 
+wget -O monitoring.jar https://www.igniterealtime.org/projects/openfire/plugins/2.3.1/monitoring.jar 
 wget -O registration.jar https://www.igniterealtime.org/projects/openfire/plugins/1.7.3/registration.jar 
 wget -O push.jar https://www.igniterealtime.org/projects/openfire/plugins/1.0.0/pushserver.jar
 wget -O externalservicediscovery.jar https://www.igniterealtime.org/projects/openfire/plugins/1.0.1/externalservicediscovery.jar 
 wget -O pushnotification.jar https://www.igniterealtime.org/projects/openfire/plugins/0.9.1/pushnotification.jar 
 #wget -O pade.jar http://green-spider.free-solutions.org/pade.jar 
-wget -O pade.jar https://github.com/igniterealtime/openfire-pade-plugin/releases/download/v1.7.1/pade.jar
+wget -O pade.jar https://github.com/igniterealtime/openfire-pade-plugin/releases/download/v1.7.2/pade.jar
 wget -O hazelcast.jar https://www.igniterealtime.org/projects/openfire/plugins/2.6.0/hazelcast.jar
  
  #Cleaning...
