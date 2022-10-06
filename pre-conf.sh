@@ -27,9 +27,9 @@ rm openfire_4.7.3_all.deb
 
 #installing Openfire plugins 
 cd /usr/share/openfire/plugins/
-wget -O bookmarks.jar https://www.igniterealtime.org/projects/openfire/plugins/1.1.0/bookmarks.jar 
+wget -O bookmarks.jar https://www.igniterealtime.org/projects/openfire/plugins/1.1.1/bookmarks.jar 
 wget -O fastpath.jar https://www.igniterealtime.org/projects/openfire/plugins/4.4.5/fastpath.jar 
-wget -O httpfileupload.jar https://www.igniterealtime.org/projects/openfire/plugins/1.1.4/httpfileupload.jar 
+wget -O httpfileupload.jar https://www.igniterealtime.org/projects/openfire/plugins/1.1.5/httpfileupload.jar 
 wget -O monitoring.jar https://www.igniterealtime.org/projects/openfire/plugins/2.3.1/monitoring.jar 
 wget -O registration.jar https://www.igniterealtime.org/projects/openfire/plugins/1.7.3/registration.jar 
 wget -O push.jar https://www.igniterealtime.org/projects/openfire/plugins/1.0.0/pushserver.jar
