@@ -20,9 +20,9 @@ java -version
 #tar xvzf openfire_4_7_3.tar.gz -C /usr/share
 #rm openfire_4_7_3.tar.gz
 
-wget -O openfire_4.7.3_all.deb https://github.com/igniterealtime/Openfire/releases/download/v4.7.3/openfire_4.7.3_all.deb 
-dpkg -i openfire_4.7.3_all.deb 
-rm openfire_4.7.3_all.deb 
+wget -O openfire_4.7.4_all.deb https://github.com/igniterealtime/Openfire/releases/download/v4.7.4/openfire_4.7.4_all.deb 
+dpkg -i openfire_4.7.4_all.deb 
+rm openfire_4.7.4_all.deb 
 
 
 #installing Openfire plugins 
